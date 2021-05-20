@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    background: linear-gradient(#e3f02b 0%, #1b34f2 100%)
+}
+
+img {
+    border-radius: 50%;
+    width: 350px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-shadow: 2px 2px #eb4034;
+    font-size: 30px;
+    font-family: 'Reggae One', cursive;
+    color: green;
+
+}
+
+p {
+    font-size: 18px;
+    color: #e3f02b;
+}
+
+.bio {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.parllax-inner {
+    display: table-cell;
+    position: center;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    float: left;
+    display: black;
+    color: orange;
+    text-align: center;
+    padding: 5px 9px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.links:hover {
+    background-color: green;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    transition:transform .2s;
+    border:10px solid #AAAAAA;
+    width: 300px;
+    
+}
+img:hover {
+    transform: scale(0.9);
+}
